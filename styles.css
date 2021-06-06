@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    overflow-y: hidden;
+}
+
+img{
+    height: auto;
+    width: 40%;
+    
+}
+
+.divcontainer{
+   
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    max-height: 450px;
+    
+    
+}
+
+.divtexte{
+    background-color: hsl(244, 38%, 16%);
+    width: 40%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+
+h1{
+    font-size: 33px;
+    color: white;
+    margin-left: 70px;
+    width: 80%;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+h2{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 70px;
+    width: 60%;
+    margin-top: 30px;
+    line-height: 25px;
+    font-weight: 100;
+
+}
+
+.divtexte2{
+    
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 80px;
+  
+}
+
+.div1{
+    color: white;
+    width: 33%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.div2{
+   color: white;
+    width: 33%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.div3{
+    color: white;
+    width: 33%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+
+.span1{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+    font-weight: lighter;
+}
